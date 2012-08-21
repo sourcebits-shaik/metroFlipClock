@@ -1,0 +1,23 @@
+﻿<Page
+    x:Class="metroflip.MainPage"
+    IsTabStop="false"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:metroflip"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{StaticResource ApplicationPageBackgroundThemeBrush}">
+        <Grid x:Name="LayoutRoot" Background="White">
+            <StackPanel Height="200" Width="420" HorizontalAlignment="Center" Orientation="Horizontal">
+                <local:Flip x:Name="Hours" Height="108" VerticalAlignment="Top" Width="130" Margin="0,41,0,0"/>
+                <local:Flip x:Name="Minutes" Height="108" VerticalAlignment="Top" Width="130" Margin="0,41,0,0"/>
+                <local:Flip x:Name="Seconds" Height="108" VerticalAlignment="Top" Width="130" Margin="0,41,0,0"/>
+
+            </StackPanel>
+        </Grid>
+
+    </Grid>
+</Page>
+
