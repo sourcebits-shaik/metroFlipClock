@@ -31,12 +31,12 @@
                         Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleY)">
                         <EasingDoubleKeyFrame Value="1" KeyTime="0">
                             <EasingDoubleKeyFrame.EasingFunction>
-                                <BounceEase EasingMode="EaseOut" Bounces="1" Bounciness="6"/>
+                                <BounceEase EasingMode="EaseOut" Bounces="0" Bounciness="0"/>
                             </EasingDoubleKeyFrame.EasingFunction>
                         </EasingDoubleKeyFrame>
                         <EasingDoubleKeyFrame Value="-1" KeyTime="00:00:00.8">
                             <EasingDoubleKeyFrame.EasingFunction>
-                                <BounceEase EasingMode="EaseOut" Bounces="1" Bounciness="6"/>
+                                <BounceEase EasingMode="EaseOut" Bounces="0" Bounciness="0"/>
                             </EasingDoubleKeyFrame.EasingFunction>
                         </EasingDoubleKeyFrame>
                     </DoubleAnimationUsingKeyFrames>

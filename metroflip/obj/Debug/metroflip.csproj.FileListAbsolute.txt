@@ -28,3 +28,29 @@ c:\users\nitheesh\documents\visual studio 2012\Projects\metroflip\metroflip\obj\
 C:\Users\Nitheesh\Documents\Visual Studio 2012\Projects\metroflip\metroflip\obj\Debug\Flip.g.i.cs
 C:\Users\Nitheesh\Documents\Visual Studio 2012\Projects\metroflip\metroflip\obj\Debug\Flip.g.cs
 C:\Users\Nitheesh\Documents\Visual Studio 2012\Projects\metroflip\metroflip\obj\Debug\Flip.xaml
+C:\Users\pasha\Documents\metroFlipClock\metroflip\bin\Debug\metroflip.exe
+C:\Users\pasha\Documents\metroFlipClock\metroflip\bin\Debug\metroflip.pdb
+C:\Users\pasha\Documents\metroFlipClock\metroflip\bin\Debug\resources.pri
+C:\Users\pasha\Documents\metroFlipClock\metroflip\bin\Debug\AppxManifest.xml
+C:\Users\pasha\Documents\metroFlipClock\metroflip\bin\Debug\metroflip.build.appxrecipe
+C:\Users\pasha\Documents\metroFlipClock\metroflip\obj\Debug\App.g.i.cs
+C:\Users\pasha\Documents\metroFlipClock\metroflip\obj\Debug\App.g.cs
+C:\Users\pasha\Documents\metroFlipClock\metroflip\obj\Debug\Common\StandardStyles.g.i.cs
+C:\Users\pasha\Documents\metroFlipClock\metroflip\obj\Debug\Common\StandardStyles.g.cs
+C:\Users\pasha\Documents\metroFlipClock\metroflip\obj\Debug\Flip.g.i.cs
+C:\Users\pasha\Documents\metroFlipClock\metroflip\obj\Debug\Flip.g.cs
+C:\Users\pasha\Documents\metroFlipClock\metroflip\obj\Debug\MainPage.g.i.cs
+C:\Users\pasha\Documents\metroFlipClock\metroflip\obj\Debug\MainPage.g.cs
+C:\Users\pasha\Documents\metroFlipClock\metroflip\obj\Debug\XamlTypeInfo.g.cs
+C:\Users\pasha\Documents\metroFlipClock\metroflip\obj\Debug\App.xaml
+C:\Users\pasha\Documents\metroFlipClock\metroflip\obj\Debug\Common\StandardStyles.xaml
+C:\Users\pasha\Documents\metroFlipClock\metroflip\obj\Debug\Flip.xaml
+C:\Users\pasha\Documents\metroFlipClock\metroflip\obj\Debug\MainPage.xaml
+C:\Users\pasha\Documents\metroFlipClock\metroflip\obj\Debug\metroflip.exe
+C:\Users\pasha\Documents\metroFlipClock\metroflip\obj\Debug\metroflip.pdb
+C:\Users\pasha\Documents\metroFlipClock\metroflip\obj\Debug\priconfig.xml
+C:\Users\pasha\Documents\metroFlipClock\metroflip\obj\Debug\layout.resfiles
+C:\Users\pasha\Documents\metroFlipClock\metroflip\obj\Debug\resources.resfiles
+C:\Users\pasha\Documents\metroFlipClock\metroflip\obj\Debug\pri.resfiles
+C:\Users\pasha\Documents\metroFlipClock\metroflip\obj\Debug\LanguageQualifiers.txt
+C:\Users\pasha\Documents\metroFlipClock\metroflip\obj\Debug\ProjectArchitectures.txt
