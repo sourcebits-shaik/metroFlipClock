@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <Machine>PASHA-PC</Machine>
-    <WindowsUser>pasha</WindowsUser>
+    <Machine>PASHA-WIN8</Machine>
+    <WindowsUser>Pasha</WindowsUser>
     <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
     <PackageArchitecture>neutral</PackageArchitecture>
     <RegisteredManifestChecksum>F9B663C7FDA186F5E4A46E18DBDDB7A1E0728178E20CFEF8ACC7FDCC5A28E0FD</RegisteredManifestChecksum>
@@ -13,60 +13,60 @@
     <RegisteredVersion>1.0.0.0</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\pasha\Documents\metroFlipClock\metroflip\bin\Debug\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\Nitheesh\Desktop\metroFlipClock\metroflip\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2012-08-22T09:12:12.855</Modified>
+      <Modified>2012-08-24T05:29:06.153</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\pasha\Documents\metroFlipClock\metroflip\bin\Debug\metroflip.exe">
+    <AppxPackagedFile Include="C:\Users\Nitheesh\Desktop\metroFlipClock\metroflip\bin\Debug\metroflip.exe">
       <PackagePath>metroflip.exe</PackagePath>
-      <Modified>2012-08-22T09:13:53.765</Modified>
+      <Modified>2012-08-24T05:29:06.018</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pasha\Documents\metroFlipClock\metroflip\bin\Debug\metroflip.pdb">
+    <AppxPackagedFile Include="C:\Users\Nitheesh\Desktop\metroFlipClock\metroflip\bin\Debug\metroflip.pdb">
       <PackagePath>metroflip.pdb</PackagePath>
-      <Modified>2012-08-22T09:13:53.740</Modified>
+      <Modified>2012-08-24T05:29:05.998</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pasha\Documents\metroFlipClock\metroflip\Assets\Logo.png">
+    <AppxPackagedFile Include="C:\Users\Nitheesh\Desktop\metroFlipClock\metroflip\Assets\Logo.png">
       <PackagePath>Assets\Logo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2012-08-22T09:11:48.754</Modified>
+      <Modified>2012-08-24T05:24:12.466</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pasha\Documents\metroFlipClock\metroflip\Assets\SmallLogo.png">
+    <AppxPackagedFile Include="C:\Users\Nitheesh\Desktop\metroFlipClock\metroflip\Assets\SmallLogo.png">
       <PackagePath>Assets\SmallLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2012-08-22T09:11:48.756</Modified>
+      <Modified>2012-08-24T05:24:12.467</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pasha\Documents\metroFlipClock\metroflip\Assets\SplashScreen.png">
+    <AppxPackagedFile Include="C:\Users\Nitheesh\Desktop\metroFlipClock\metroflip\Assets\SplashScreen.png">
       <PackagePath>Assets\SplashScreen.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2012-08-22T09:11:48.758</Modified>
+      <Modified>2012-08-24T05:24:12.468</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pasha\Documents\metroFlipClock\metroflip\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Users\Nitheesh\Desktop\metroFlipClock\metroflip\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2012-08-22T09:11:48.761</Modified>
+      <Modified>2012-08-24T05:24:12.470</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pasha\Documents\metroFlipClock\metroflip\bin\Debug\Common\StandardStyles.xaml">
+    <AppxPackagedFile Include="C:\Users\Nitheesh\Desktop\metroFlipClock\metroflip\bin\Debug\Common\StandardStyles.xaml">
       <PackagePath>Common\StandardStyles.xaml</PackagePath>
-      <Modified>2012-08-22T09:11:48.771</Modified>
+      <Modified>2012-08-24T05:24:12.475</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pasha\Documents\metroFlipClock\metroflip\bin\Debug\Flip.xaml">
+    <AppxPackagedFile Include="C:\Users\Nitheesh\Desktop\metroFlipClock\metroflip\bin\Debug\Flip.xaml">
       <PackagePath>Flip.xaml</PackagePath>
-      <Modified>2012-08-22T09:13:51.289</Modified>
+      <Modified>2012-08-24T05:28:49.497</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pasha\Documents\metroFlipClock\metroflip\bin\Debug\MainPage.xaml">
+    <AppxPackagedFile Include="C:\Users\Nitheesh\Desktop\metroFlipClock\metroflip\bin\Debug\MainPage.xaml">
       <PackagePath>MainPage.xaml</PackagePath>
-      <Modified>2012-08-22T09:11:48.784</Modified>
+      <Modified>2012-08-24T05:28:58.568</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pasha\Documents\metroFlipClock\metroflip\bin\Debug\App.xaml">
+    <AppxPackagedFile Include="C:\Users\Nitheesh\Desktop\metroFlipClock\metroflip\bin\Debug\App.xaml">
       <PackagePath>App.xaml</PackagePath>
-      <Modified>2012-08-22T09:11:48.745</Modified>
+      <Modified>2012-08-24T05:24:12.463</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pasha\Documents\metroFlipClock\metroflip\bin\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\Nitheesh\Desktop\metroFlipClock\metroflip\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2012-08-22T09:12:12.783</Modified>
+      <Modified>2012-08-24T05:29:06.085</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

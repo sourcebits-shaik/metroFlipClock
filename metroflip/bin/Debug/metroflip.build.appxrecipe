@@ -1,53 +1,53 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <Machine>PASHA-PC</Machine>
-    <WindowsUser>pasha</WindowsUser>
+    <Machine>PASHA-WIN8</Machine>
+    <WindowsUser>Pasha</WindowsUser>
     <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
     <PackageArchitecture>neutral</PackageArchitecture>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\pasha\Documents\metroFlipClock\metroflip\bin\Debug\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\Nitheesh\Desktop\metroFlipClock\metroflip\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\pasha\Documents\metroFlipClock\metroflip\bin\Debug\metroflip.exe">
+    <AppxPackagedFile Include="C:\Users\Nitheesh\Desktop\metroFlipClock\metroflip\bin\Debug\metroflip.exe">
       <PackagePath>metroflip.exe</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pasha\Documents\metroFlipClock\metroflip\bin\Debug\metroflip.pdb">
+    <AppxPackagedFile Include="C:\Users\Nitheesh\Desktop\metroFlipClock\metroflip\bin\Debug\metroflip.pdb">
       <PackagePath>metroflip.pdb</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pasha\Documents\metroFlipClock\metroflip\Assets\Logo.png">
+    <AppxPackagedFile Include="C:\Users\Nitheesh\Desktop\metroFlipClock\metroflip\Assets\Logo.png">
       <PackagePath>Assets\Logo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pasha\Documents\metroFlipClock\metroflip\Assets\SmallLogo.png">
+    <AppxPackagedFile Include="C:\Users\Nitheesh\Desktop\metroFlipClock\metroflip\Assets\SmallLogo.png">
       <PackagePath>Assets\SmallLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pasha\Documents\metroFlipClock\metroflip\Assets\SplashScreen.png">
+    <AppxPackagedFile Include="C:\Users\Nitheesh\Desktop\metroFlipClock\metroflip\Assets\SplashScreen.png">
       <PackagePath>Assets\SplashScreen.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pasha\Documents\metroFlipClock\metroflip\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Users\Nitheesh\Desktop\metroFlipClock\metroflip\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pasha\Documents\metroFlipClock\metroflip\bin\Debug\Common\StandardStyles.xaml">
+    <AppxPackagedFile Include="C:\Users\Nitheesh\Desktop\metroFlipClock\metroflip\bin\Debug\Common\StandardStyles.xaml">
       <PackagePath>Common\StandardStyles.xaml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pasha\Documents\metroFlipClock\metroflip\bin\Debug\Flip.xaml">
+    <AppxPackagedFile Include="C:\Users\Nitheesh\Desktop\metroFlipClock\metroflip\bin\Debug\Flip.xaml">
       <PackagePath>Flip.xaml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pasha\Documents\metroFlipClock\metroflip\bin\Debug\MainPage.xaml">
+    <AppxPackagedFile Include="C:\Users\Nitheesh\Desktop\metroFlipClock\metroflip\bin\Debug\MainPage.xaml">
       <PackagePath>MainPage.xaml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pasha\Documents\metroFlipClock\metroflip\bin\Debug\App.xaml">
+    <AppxPackagedFile Include="C:\Users\Nitheesh\Desktop\metroFlipClock\metroflip\bin\Debug\App.xaml">
       <PackagePath>App.xaml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pasha\Documents\metroFlipClock\metroflip\bin\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\Nitheesh\Desktop\metroFlipClock\metroflip\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>

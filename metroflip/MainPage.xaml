@@ -9,11 +9,11 @@
     mc:Ignorable="d">
 
     <Grid Background="{StaticResource ApplicationPageBackgroundThemeBrush}">
-        <Grid x:Name="LayoutRoot" Background="White">
-            <StackPanel Height="200" Width="420" HorizontalAlignment="Center" Orientation="Horizontal">
-                <local:Flip x:Name="Hours" Height="108" VerticalAlignment="Top" Width="130" Margin="0,41,0,0"/>
-                <local:Flip x:Name="Minutes" Height="108" VerticalAlignment="Top" Width="130" Margin="0,41,0,0"/>
-                <local:Flip x:Name="Seconds" Height="108" VerticalAlignment="Top" Width="130" Margin="0,41,0,0"/>
+<Grid x:Name="LayoutRoot" Background="White">
+            <StackPanel Height="250" Width="600" HorizontalAlignment="Center" Orientation="Horizontal">
+                <local:Flip x:Name="Hours" Height="250" VerticalAlignment="Top" Width="300" HorizontalAlignment="Center"/>
+                <local:Flip x:Name="Minutes" Height="250" VerticalAlignment="Top" Width="300" HorizontalAlignment="Center"/>
+
 
             </StackPanel>
         </Grid>

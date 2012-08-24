@@ -1,1 +1,1 @@
-C:\Users\pasha\Documents\metroFlipClock\metroflip\metroflip.csproj;neutral
+C:\Users\Nitheesh\Desktop\metroFlipClock\metroflip\metroflip.csproj;neutral

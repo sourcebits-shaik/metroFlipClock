@@ -10,11 +10,11 @@
     d:DesignWidth="400">
     
 <Grid x:Name="LayoutRoot">
-        <Grid Height="140" Width="140">
+        <Grid Height="220" Width="290">
             <Grid.Resources>
                 <Style x:Key="Text" TargetType="TextBlock">
                     <Setter Property="FontFamily" Value="Segoe UI"/>
-                    <Setter Property="FontSize" Value="90"/>
+                    <Setter Property="FontSize" Value="130"/>
                     <Setter Property="Foreground" Value=" #FF1F1F1F"/>
                 </Style>
                 <Style x:Key="Border" TargetType="Border">
@@ -82,8 +82,8 @@
                         <GradientStop Color="#FF1BA1E2" Offset="1"/>
                     </LinearGradientBrush>
                 </Border.Background>
-                <TextBlock Margin="0,0,0,16" Style="{StaticResource Text}" HorizontalAlignment="Center" VerticalAlignment="Bottom" 
-                    RenderTransformOrigin="0.5,0" Text="00" x:Name="textBlockBottom"/>
+                <TextBlock Margin="0,0,0,30" Style="{StaticResource Text}" HorizontalAlignment="Center" VerticalAlignment="Bottom" 
+                    RenderTransformOrigin="0.5,0" Text="05" x:Name="textBlockBottom" />
             </Border>
             <Border Style="{StaticResource Border}" Background="{StaticResource BackgroundBrush}" RenderTransformOrigin="0.5,1" x:Name="BlockFlip">
                 <Border.RenderTransform>
@@ -95,16 +95,16 @@
                     </TransformGroup>
                 </Border.RenderTransform>
                 <Grid>
-                    <TextBlock Style="{StaticResource Text}" HorizontalAlignment="Center" VerticalAlignment="Top" Text="00" 
-                        x:Name="textBlockFlipTop"/>
+                    <TextBlock Style="{StaticResource Text}" HorizontalAlignment="Center" VerticalAlignment="Top" Text="05" 
+                        x:Name="textBlockFlipTop" Margin="0,15,0,0"/>
                     <TextBlock Style="{StaticResource Text}" HorizontalAlignment="Center" VerticalAlignment="Bottom" Visibility="Collapsed" 
-                        RenderTransformOrigin="0.5,0.5" x:Name="textBlockFlipBottom">
+                        Text="05"  RenderTransformOrigin="0.5,0.5" x:Name="textBlockFlipBottom">
                         <TextBlock.RenderTransform>
                             <TransformGroup>
                                 <ScaleTransform ScaleY="-1"/>
                                 <SkewTransform/>
                                 <RotateTransform/>
-                                <TranslateTransform Y="70"/>
+                                <TranslateTransform Y="110"/>
                             </TransformGroup>
                         </TextBlock.RenderTransform>
                     </TextBlock>

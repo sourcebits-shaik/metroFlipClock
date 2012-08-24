@@ -26,50 +26,42 @@ namespace metroflip
         private int _seconds = DateTime.Now.Second;
         private int _minutes = DateTime.Now.Minute;
         private int _hours = DateTime.Now.Hour;
-        private  void  Timer_Tick1(object sender, object e)
+        private void Timer_Tick1(object sender, object e)
         {
-            if (_seconds == 59)
-            {
 
-                Seconds.Value(_seconds.ToString("00"), 0.ToString("00"));
-                _seconds = 0;
-                if (_minutes == 59)
+            if (_minutes == 59)
+            {
+                Minutes.Value(_minutes.ToString("00"), 0.ToString("00"));
+                _minutes = 0;
+                if (_hours == 23)
                 {
-                    Minutes.Value(_minutes.ToString("00"), 0.ToString("00"));
-                    _minutes = 0;
-                    if (_hours == 23)
-                    {
-                        Hours.Value(_hours.ToString("00"), 0.ToString("00"));
-                        _hours = 0;
-                    }
-                    else
-                    {
-                        Hours.Value(_hours.ToString("00"), (_hours + 1).ToString("00"));
-                        _hours += 1;
-                    }
+                    Hours.Value(_hours.ToString("00"), 0.ToString("00"));
+                    _hours = 0;
                 }
                 else
                 {
-                    Minutes.Value(_minutes.ToString("00"), (_minutes + 1).ToString("00"));
-                    _minutes += 1;
+                    Hours.Value(_hours.ToString("00"), (_hours + 1).ToString("00"));
+                    _hours += 1;
                 }
             }
             else
             {
-                Seconds.Value(_seconds.ToString("00"), (_seconds + 1).ToString("00"));
-                _seconds += 1;
+                Minutes.Value(_minutes.ToString("00"), (_minutes + 1).ToString("00"));
+                _minutes += 1;
             }
+
+
         }
 
 
         public MainPage()
         {
             this.InitializeComponent();
-            Seconds.TextPrev = _seconds.ToString("00");
+
             Minutes.TextPrev = _minutes.ToString("00");
             Hours.TextPrev = _hours.ToString("00");
             _timer.Tick += new System.EventHandler<System.Object>(Timer_Tick1);
-            _timer.Interval = TimeSpan.FromSeconds(1);
+            _timer.Interval = TimeSpan.FromMinutes(1);
             _timer.Start();
         }
 
